@@ -1,0 +1,99 @@
+.box1{
+    height: 12rem;
+    width: 21rem;
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    align-items: center;
+    position:fixed;
+     top: 35%;
+    left: 11.6%;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+}
+.pt1{
+text-align: left;
+height: 5vh;
+width: 90vw;
+font-size: 3.2vh;
+font-weight: 500;
+margin-left: 20vw;
+}
+.lab1{
+    height: 2rem;
+    width: 33rem;
+    font-size: 18px;
+    display: flex;
+    font-weight: 400;
+   margin-top: 6px;
+   margin-left: 47vw;
+}
+.lab1 input{
+    width: 10rem;
+    font-size: small;
+}
+.color_box1{
+    height: 3vh;
+    width: 28rem;
+    display: flex;
+    gap: 10px;
+}
+.cs{
+    font-size: 20px;
+    margin-left: 68px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+.input_colors1 {
+    display: flex;
+    gap: 2vw;
+    margin-top: 28px;
+    margin-left: 10px;
+  }
+  .color_a,
+  .color_b,
+  .color_c,
+  .color_d,
+  .color_e,
+  .color_f {
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .color_a{
+      background: #B38BFA;
+  } 
+  .color_b{
+      background: #FF79F2;
+  }
+  .color_c{
+    background: #43E6FC;
+}
+.color_d{
+  background: #F19576;
+}
+.color_e{
+  background: #0047FF;
+}
+.color_f{
+  background: #6691FF;
+}
+.btn2{
+    margin-top: 60px;
+    padding: 6px 26vw;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+   
+  }
+  .highlight{
+    border: 3px solid rgb(15, 161, 224);
+    border-radius: 50%;
+  }
+  
