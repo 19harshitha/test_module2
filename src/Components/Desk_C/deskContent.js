@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "./Content_d.css"
-import Nodt_d from "../Desk_C/Nodt_d";
+import './deskContent.css'
+import deskNote from './deskNote'
 import enter from "../../assets/enter.png"
 
 function Content_d( {notes, setNotes, show} ) {
@@ -74,7 +74,7 @@ function Content_d( {notes, setNotes, show} ) {
       <div className="dt_content">
         {notes && notes.length > 0
           ? notes.map((note, index) => (
-              <Nodt_d key={index} note={note} />
+              <deskNote key={index} note={note} />
             ))
           : null}
       </div>

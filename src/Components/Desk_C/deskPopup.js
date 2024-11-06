@@ -1,5 +1,5 @@
 import React, { useState,useEffect,useRef } from "react";
-import "./Popup_d.css"
+import './deskPopup.css';
 
 function Popup_d( {isOpen,onClose,grpNameMain, setGrpNameMain}) {
   const popupRef = useRef(null);

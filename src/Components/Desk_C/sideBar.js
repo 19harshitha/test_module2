@@ -1,6 +1,6 @@
 import React  from 'react'
-import "./Pg1.css";
-import Popup_d from '../Desk_C/Popup_d';
+import './sideBar.css'
+import deskPopup from './deskPopup';
 import { useState, useEffect } from 'react';
 import Title from '../Desk_C/Title';
 
@@ -56,7 +56,7 @@ const Pg1 = ({ show, setShow } ) => {
       
       {showPop && (
         <div className="dt_popup">
-          <Popup_d
+          <deskPopup
             grpNameMain={grpNameMain}
             setGrpNameMain={setGrpNameMain}
             onClose={handleClose}

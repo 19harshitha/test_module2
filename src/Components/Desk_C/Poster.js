@@ -12,7 +12,7 @@ const Poster = () => {
         <p style={{ marginLeft: "20px", fontSize: "40px" }}>Pocket Notes</p>
         <p style={{ marginLeft: "24px", fontSize: "18px", color: "#292929" }}>Send and receive messages without keeping your phone online.</p>
         <p style={{ marginLeft: "24px", fontSize: "18px", color: "#292929" }}>Use Pocket Notes on up to 4 linked devices and 1 mobile phone</p>
-        <p style={{ marginLeft: "24px", fontSize: "18px", marginTop: "100px", color: "#292929" }}>
+        <p style={{ marginLeft: "24px", fontSize: "18px", marginTop: "70px", color: "#292929" }}>
           <img src={Vector} height={"20px"} width={"17px"}/> end-to-end encrypted</p>
      
             </div>
