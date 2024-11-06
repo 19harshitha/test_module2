@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Nodt_m = ({note}) => {
+const MobNote = ({note}) => {
   return (
     <div style={{
       display:"flex",
@@ -32,4 +32,4 @@ const Nodt_m = ({note}) => {
   )
 }
 
-export default Nodt_m
+export default MobNote

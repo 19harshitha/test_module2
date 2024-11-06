@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";   
 import Mobi_View from './Pages/Mobi_View'
 import Desk_View from './Pages/Desk_View';
-import Content_m from './Components/Mobi_C/Content_m'
+import MobCont from './Components/Mobi_C/MobCont'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
 						<Route
 							path="/notes"
 							element={
-								<Content_m
+								<MobCont
 									show={show}
 									setShow={setShow}
 									notes={notes}

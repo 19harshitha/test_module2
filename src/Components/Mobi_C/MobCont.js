@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "./Content_m.css"
-import Nodt_m from "../Mobi_C/Nodt_m";
+import './mobCont.css'
+import MobNote from "../Mobi_C/MobNote";
 import enter from "../../assets/enter.png"
 import Vec from "../../assets/Vec.png";
 import { useNavigate } from "react-router-dom";
@@ -69,7 +69,7 @@ function Content_m( {notes, setNotes, show,setShow} ) {
       return (
         <div className="Mobi_notes">
           <div className="Mobi_title">
-          <img src={Vec} alt="back" onClick={Back} />
+          <img src={Vec} alt="back"  onClick={Back} />
             <div
               className="Mobi_color"
               style={{ backgroundColor: iconColor }}
@@ -84,7 +84,7 @@ function Content_m( {notes, setNotes, show,setShow} ) {
 				) : (
 					<div>
 						{notes.map((note, index) => (
-							<Nodt_m key={index} note={note} />
+							<MobNote key={index} note={note} />
 						))}
 					</div>
 				)}
@@ -96,7 +96,7 @@ function Content_m( {notes, setNotes, show,setShow} ) {
           onChange={handleChange}
           onKeyDown={handleKeyDown}
         ></textarea>
-        <img src={enter}  onClick={handleNotes} />
+        <img src={enter} alt="pic" onClick={handleNotes} />
       </div>
     </div>
   );

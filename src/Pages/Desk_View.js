@@ -1,6 +1,6 @@
-import sideBar from '../Components/Desk_C/sideBar'
+import Sidebar from '../Components/Desk_C/Sidebar'
 import Poster from "../Components/Desk_C/Poster";
-import deskContent from '../Components/Desk_C/deskContent'
+import DeskContent from '../Components/Desk_C/DeskContent'
 import React,{useState} from "react";
 
 
@@ -9,9 +9,9 @@ function Desk_View() {
 	const [notes, setNotes] = useState([]);
 	return (
 		<div style={{width:"100vw",height:"100vh",display:"flex"}}>
-			<sideBar show={show} setShow={setShow} />
+			<Sidebar show={show} setShow={setShow} />
 			{show.length > 0 ? (
-				<deskContent
+				<DeskContent
 					notes={notes}
 					setNotes={setNotes}
 					show={show}

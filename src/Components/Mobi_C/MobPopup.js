@@ -1,7 +1,7 @@
 import React, {useState,useEffect,useRef} from 'react'
-import "./Popup_m.css";
+import './mobPopup.css';
 
-const Popup_m = ({isOpen, onClose , grpNameMain , setGrpNameMain}) => {
+const MobPopup = ({isOpen, onClose , grpNameMain , setGrpNameMain}) => {
   const popupRef = useRef(null);
     const [inpval, setInpval] = useState("");
     const [iconColor, setIconColor] = useState("");
@@ -78,4 +78,4 @@ const Popup_m = ({isOpen, onClose , grpNameMain , setGrpNameMain}) => {
   )
 }
 
-export default Popup_m
+export default MobPopup

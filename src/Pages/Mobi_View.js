@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react'
 import "./Mobi_View.css"
-import Popup_m from '../Components/Mobi_C/Popup_m'
+import MobPopup from '../Components/Mobi_C/MobPopup'
 import MTitle from '../Components/Mobi_C/MTitle'
 
 
@@ -58,7 +58,7 @@ const Mobi_View = ({ show, setShow } ) => {
 			</div>
 			{showPop && (
 				<div className="mobi_pop">
-					<Popup_m
+					<MobPopup
 						onClose={handleClose}
             isOpen={showPop}
 						grpNameMain={grpNameMain}
